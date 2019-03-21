@@ -43,3 +43,10 @@ body {
     vertical-align: middle;
     width: 100%;
 }
+
+#action .col-sm-5 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
