@@ -1,0 +1,10 @@
+.btn-outline-primary {
+    border: 1px solid #436fB0;
+}
+
+.col {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
