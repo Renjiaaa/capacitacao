@@ -29,7 +29,7 @@ body {
 
 #action {
     position: relative;
-    background-image: url(../Images/tour-bg);
+    background-image: url(../Images/tour-bg.png);
     background-color: #fbfafa;
     background-repeat: repeat-x;
     height: 155px;
@@ -49,4 +49,78 @@ body {
     top: 0;
     height: 100%;
     right: 0;
+}
+
+.ofertacs {
+    overflow: hidden;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+#clientes {
+    padding-bottom: 45px;
+}
+
+.clientes {
+    padding-bottom: 45px;
+}
+
+.clientes-logo {
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofertacs:last-child {
+    padding-bottom: 95px;
+}
+
+#rodape {
+    padding-bottom: 75px;
+    background-image: url(../Images/footer.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+}
+
+#footer .bottom-separator {
+    margin-bottom: 60px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#rodape-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+#message {
+    height: 110px;
+    resize: none;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #003789;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-bottom: 3px solid #03195C;
+    box-shadow: none;
+    padding: 10px;
+}
+
+.copyright-text {
+    margin-top: 70px;
 }
