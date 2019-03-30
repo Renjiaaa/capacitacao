@@ -130,3 +130,15 @@ body {
 .copyright-text {
     margin-top: 70px;
 }
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.align-right {
+    text-align: right;
+}
